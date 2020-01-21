@@ -8,6 +8,9 @@
 @import "main.css";
 @import "settings.css";
 @import "find.css";
+@import "chats.css";
+@import "chat.css";
+@import "mobile.css";
 
 body {
   width: 100%;

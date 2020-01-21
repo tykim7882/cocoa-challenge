@@ -35,7 +35,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 .friend__add-btn {
@@ -48,4 +48,5 @@
   height: 25px;
   background-color: #f0f0f0;
   border-radius: 5px;
+  cursor: pointer;
 }

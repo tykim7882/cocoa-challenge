@@ -37,6 +37,7 @@
   height: 40px;
   border-radius: 15px;
   margin-right: 10px;
+  border:1px solid rgb(224, 240, 252);
 }
 
 .m-avatar {

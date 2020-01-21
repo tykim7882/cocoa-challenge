@@ -1,9 +1,19 @@
 main {
-  margin-top: 80px;
+  margin-top: 75px;
   margin-bottom: 70px;
   z-index: 10;
 }
 
 .settings {
+  margin-bottom: 20px;
+}
+
+
+.chat,
+.chat-screen {
   margin-bottom: 0px;
+}
+
+.chat-screen{
+  padding-bottom:120px;
 }

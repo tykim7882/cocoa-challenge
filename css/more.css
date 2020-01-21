@@ -134,6 +134,10 @@
   border-radius: 5px;
 }
 
+.pay .pay-column{
+  cursor: pointer;
+}
+
 .pay .pay-column:nth-child(1) {
   padding: 8px 12px;
   background-color: #ffffff;
@@ -147,4 +151,9 @@
 .pay-column span {
   margin-right: 10px;
   opacity: 0.8;
+}
+
+.more-header .friend__column .more-my,
+.more-header .friend__column .more-imti{
+  cursor: pointer;
 }
