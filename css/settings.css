@@ -1,0 +1,22 @@
+.settings__list .settings__setting {
+  border-bottom: 1px solid #fbfbfb;
+  opacity: 0.8;
+  font-size: 16px;
+  padding: 20px 10px;
+  margin-left: 15px;
+}
+
+.settings__list .settings__icon {
+  margin-right: 10px;
+}
+
+.settings__list .setting__detail {
+  padding: 5px 0px 0px 28px;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.setting-arrow {
+  margin-left: 20px;
+  margin-right: -20px;
+}

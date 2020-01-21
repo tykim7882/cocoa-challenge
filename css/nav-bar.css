@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ebebeb;
+}
+
+.nav .nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7px 0px;
+  padding: 10px 20px 5px 20px;
+}
+
+.nav .nav__list i {
+  font-size: 18px;
+  color: #2f363e;
+}
+
+.nav .nav__linst-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6px;
+  color: white;
+  background-color: #e65f3f;
+  border-radius: 50%;
+  top: -7px;
+  left: 10px;
+}

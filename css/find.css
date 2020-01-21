@@ -1,0 +1,51 @@
+.find-header .find__header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+  border-bottom: 1px solid #fbfbfb;
+}
+
+.find-header .header-btn__title {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.find__header-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.find__recommended {
+  margin: 15px 20px;
+}
+
+.find__recommended h5 {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.find__recommended .find__friend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.friend__add-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 30px;
+  height: 25px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}

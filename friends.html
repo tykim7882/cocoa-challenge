@@ -20,6 +20,7 @@
         <i class="far fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
         <span class="status-bar__battery-storage">52%</span>
         <i class="fas fa-battery-half"></i>
       </div>
@@ -62,32 +63,58 @@
           </div>
         </div>
       </header>
-      <div class="friends__plus">
-        <h5 class="friends__title">Plus Friends</h5>
-        <div class="friends__friend friend">
-          <div class="friend__column">
-            <img src="images/young-woman.jpg" class="friend__avatar" />
-            <div class="friend__content">
-              <span class="friend__name">Plus Friend</span>
-            </div>
-          </div>
+      <ul class="friends__plus">
+        <div class="friend__title-bar">
+          <h5 class="friends__title">Channel</h5>
+          <i class="fas fa-angle-up accordion"></i>
         </div>
-      </div>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/css.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Kakao Challenge</span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/javascript.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">JS Challenge</span>
+            </div>
+          </div>
+        </li>
+      </ul>
       <ul class="friends__list">
-        <h5 class="friends__title">Friends 5</h5>
+        <div class="friend__title-bar">
+          <h5 class="friends__title">Friends 5</h5>
+          <i class="fas fa-angle-up accordion"></i>
+        </div>
         <li class="friends__list">
           <div class="friends__friend friend friend--lg">
             <div class="friend__column">
-              <img src="images/young-woman.jpg" class="friend__avatar" />
+              <img src="images/person001.jpg" class="friend__avatar" />
               <div class="friend__content">
-                <span class="friend__name">Anthony Edward Tony Stark</span>
-                <span class="friend__status">I am Iron man</span>
+                <span class="friend__name">Nicholas Joseph Nick Fury</span>
+                <span class="friend__status"></span>
+              </div>
+            </div>
+            <div class="friend__column"></div>
+          </div>
+        </li>
+        <li class="friends__list">
+          <div class="friends__friend friend friend--lg">
+            <div class="friend__column">
+              <img src="images/person002.jpg" class="friend__avatar" />
+              <div class="friend__content">
+                <span class="friend__name">Steve Rogers</span>
+                <span class="friend__status">Avengers</span>
               </div>
             </div>
             <div class="friend__column">
               <div class="friend__now-listening">
-                <span>Flower</span>
-                <i class="far fa-play-circle"></i>
+                <span>I'm not alone</span>
+                <i class="fas fa-caret-right"></i>
               </div>
             </div>
           </div>
@@ -95,16 +122,16 @@
         <li class="friends__list">
           <div class="friends__friend friend friend--lg">
             <div class="friend__column">
-              <img src="images/young-woman.jpg" class="friend__avatar" />
+              <img src="images/person003.jpg" class="friend__avatar" />
               <div class="friend__content">
-                <span class="friend__name">Anthony Edward Tony Stark</span>
-                <span class="friend__status">I am Iron man</span>
+                <span class="friend__name">Thor Odinson</span>
+                <span class="friend__status"></span>
               </div>
             </div>
             <div class="friend__column">
               <div class="friend__now-listening">
                 <span>Flower</span>
-                <i class="far fa-play-circle"></i>
+                <i class="fas fa-caret-right"></i>
               </div>
             </div>
           </div>
@@ -112,50 +139,28 @@
         <li class="friends__list">
           <div class="friends__friend friend friend--lg">
             <div class="friend__column">
-              <img src="images/young-woman.jpg" class="friend__avatar" />
+              <img src="images/person004.jpg" class="friend__avatar" />
               <div class="friend__content">
-                <span class="friend__name">Anthony Edward Tony Stark</span>
-                <span class="friend__status">I am Iron man</span>
+                <span class="friend__name">Robert Bruce Banner</span>
+                <span class="friend__status">I'm ALWAYS angry.</span>
               </div>
             </div>
-            <div class="friend__column">
-              <div class="friend__now-listening">
-                <span>Flower</span>
-                <i class="far fa-play-circle"></i>
-              </div>
-            </div>
+            <div class="friend__column"></div>
           </div>
         </li>
         <li class="friends__list">
           <div class="friends__friend friend friend--lg">
             <div class="friend__column">
-              <img src="images/young-woman.jpg" class="friend__avatar" />
+              <img src="images/person005.jpg" class="friend__avatar" />
               <div class="friend__content">
-                <span class="friend__name">Anthony Edward Tony Stark</span>
-                <span class="friend__status">I am Iron man</span>
+                <span class="friend__name">Natasha Romanoff</span>
+                <span class="friend__status">Black Widow</span>
               </div>
             </div>
             <div class="friend__column">
               <div class="friend__now-listening">
-                <span>Flower</span>
-                <i class="far fa-play-circle"></i>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li class="friends__list">
-          <div class="friends__friend friend friend--lg">
-            <div class="friend__column">
-              <img src="images/young-woman.jpg" class="friend__avatar" />
-              <div class="friend__content">
-                <span class="friend__name">Anthony Edward Tony Stark</span>
-                <span class="friend__status">I am Iron man</span>
-              </div>
-            </div>
-            <div class="friend__column">
-              <div class="friend__now-listening">
-                <span>Flower</span>
-                <i class="far fa-play-circle"></i>
+                <span>You are my everything</span>
+                <i class="fas fa-caret-right"></i>
               </div>
             </div>
           </div>
@@ -171,6 +176,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__linst-link">
+            <div class="nav__badge">12</div>
             <i class="far fa-comment"></i>
           </a>
         </li>

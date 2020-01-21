@@ -1,0 +1,86 @@
+.friends__list .friend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.friends__plus .friend {
+  padding: 10px 20px;
+}
+
+.friend .friend__column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.friend__content .friend__status {
+  display: block;
+}
+
+.friend__content .friend__name {
+  font-size: 14px;
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.friend__content .friend__status {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.friend__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.m-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.g-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.friend__title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 15px;
+  padding: 10px 10px;
+  border-top: 1px solid #fbfbfb;
+  color: #888888;
+  font-size: 14px;
+}
+
+.accordion {
+  cursor: pointer;
+}
+
+.friend__now-listening {
+  padding: 3px 7px;
+  border: 1px solid #23b955;
+  font-size: 12px;
+  border-radius: 12px;
+}
+
+.friend__now-listening > span {
+  opacity: 0.7;
+}
+
+.friend__now-listening i {
+  color: #23b955;
+  margin-left: 5px;
+}
