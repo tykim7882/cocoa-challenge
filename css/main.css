@@ -8,12 +8,30 @@ main {
   margin-bottom: 20px;
 }
 
-
 .chat,
 .chat-screen {
   margin-bottom: 0px;
 }
 
-.chat-screen{
-  padding-bottom:120px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.chats,
+.find,
+.friends,
+.more,
+.settings {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.chat-screen {
+  padding-bottom: 120px;
 }

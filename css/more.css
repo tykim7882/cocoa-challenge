@@ -7,119 +7,35 @@
   padding: 10px 20px;
 }
 
-.friend__column .more-my {
+.friend__column .more-my,
+.friend__column .more-imti {
   font-size: 14px;
   padding: 7px 12px;
   border: 1px solid #f0f0f0;
   border-radius: 15px;
   margin-right: 3px;
+  cursor: pointer;
 }
 
 .friend__column .more-imti {
-  font-size: 14px;
   color: #09b062;
-  padding: 7px 10px;
-  border: 1px solid #f0f0f0;
-  border-radius: 15px;
   position: relative;
 }
 
-.suggestions {
-  margin: 20px 25px;
-  border-bottom: 1px solid #fbfbfb;
-}
-
-.suggestions .more__btn-list {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.more__btn-list .more__btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  padding: 10px 50px;
-}
-
-.more__suggestions-list .suggestion__title,
-.more__btn-list .more__btn-title {
-  margin-top: 3px;
-  font-size: 10px;
-}
-
-.more .more-badge {
+.friend__column .more-badge {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 13px;
   height: 15px;
-  background-color: #e65f3f;
   color: white;
+  background-color: #e65f3f;
   font-size: 5px;
   border-radius: 50%;
   top: -5px;
   left: 23px;
-}
-
-.more__btn .fa-cat {
-  color: #f5af50;
-}
-
-.more__btn .fa-ticket-alt {
-  color: #69e068;
-}
-
-.more__btn .fa-gamepad {
-  color: #f7d347;
-}
-
-.more__btn .fa-sticky-note {
-  color: #ffd200;
-}
-
-.more__btn .fa-lemon {
-  color: #69e068;
-}
-
-.more__suggestions .more__title {
-  margin: 0px 20px 10px 20px;
-  font-weight: 700;
-}
-
-.more__suggestions-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  margin: 30px 20px 10px 30px;
-}
-
-.more__suggestions-list .more__suggestion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 20px;
-}
-
-.more__suggestion .suggestion__icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-  background-color: #f7d347;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.more__btn-icon,
-.suggestion__icon {
-  cursor: pointer;
+  margin: 0 auto;
 }
 
 .pay {
@@ -134,7 +50,9 @@
   border-radius: 5px;
 }
 
-.pay .pay-column{
+.pay .pay-column,
+.suggestions__btn-icon,
+.suggestion__icon {
   cursor: pointer;
 }
 
@@ -143,17 +61,88 @@
   background-color: #ffffff;
   border-radius: 15px;
 }
-
 .pay .pay-text {
   font-weight: 600;
 }
-
 .pay-column span {
   margin-right: 10px;
   opacity: 0.8;
 }
 
-.more-header .friend__column .more-my,
-.more-header .friend__column .more-imti{
-  cursor: pointer;
+.suggestions {
+  margin: 20px 25px;
+  border-bottom: 1px solid #fbfbfb;
+}
+
+.suggestions .suggestions__btn-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.suggestions__btn-list .suggestions__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding: 10px 50px;
+}
+
+.suggestions__btn-icon .fa-cat {
+  color: #f5af50;
+}
+
+.suggestions__btn-icon .fa-ticket-alt {
+  color: #69e068;
+}
+
+.suggestions__btn-icon .fa-gamepad {
+  color: #f7d347;
+}
+
+.suggestions__btn-icon .fa-sticky-note {
+  color: #ffd200;
+}
+
+.suggestions__btn-icon .fa-lemon {
+  color: #69e068;
+}
+
+.suggestions__btn-list .suggestions__btn-title,
+.more__suggestions-list .suggestion__title {
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+.more__suggestions .more__title {
+  margin: 0px 20px 10px 20px;
+  font-weight: 700;
+}
+
+.more__suggestions-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 30px 20px 10px 50px;
+}
+
+.more__suggestions-list .more__suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.more__suggestion .suggestion__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #f7d347;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  color: white;
 }

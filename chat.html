@@ -1,131 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chats | KOKOA-CLONE CHALLENGE</title>
+    <script
+      src="https://kit.fontawesome.com/63820efb51.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Chats | KOKOA-CLONE CHALLENGE</title>
-  <script src="https://kit.fontawesome.com/63820efb51.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
+  <body class="chat-body">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">10:10</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
+        <span class="status-bar__battery-storage">52%</span>
+        <i class="fas fa-battery-half"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <a href="index.html">
+          <i class="fas fa-arrow-left chat-arrow"></i>
+        </a>
+        <h1 class="header__title">Family</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Sunday, January 19, 2020</span>
+        <li class="incoming-message message">
+          <img src="images/person006.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Morgan H. Stark</span>
+            <div class="message__bubble">
+              I love you 3000 !!!
+            </div>
+          </div>
+          <span class="message__timestamp">PM 7:13</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">PM 7:14</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              I love you 3000
+            </div>
+          </div>
+        </li>
+        <span class="chat__timestamp">Wednesday, January 22, 2020</span>
+        <li class="incoming-message message">
+          <img src="images/person007.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Virginia Pepper Potts</span>
+            <div class="message__bubble">
+              I love you 3000
+            </div>
+          </div>
+          <span class="message__timestamp">PM 7:20</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">PM 7:23</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              I love you 3000<br />
+              I love you 3000<br />
+              I love you 3000!!!!!!!!!!!!!
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/person006.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Morgan H. Stark</span>
+            <div class="message__bubble">
+              I love you 3000 !!!<br />
+              I love you 3000 !!!<br />
+              I love you 3000 !!!<br />
+              I love you 3000
+            </div>
+          </div>
+          <span class="message__timestamp">PM 8:05</span>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp">PM 8:09</span>
+          <div class="message__content">
+            <div class="message__bubble">
+              I love you 3000
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write-container">
+      <input type="text" placeholder="Send Message" class="chat__write" />
+      <div class="chat__icon-left chat_icon">
+        <span class="chat_icon">
+          <i class="far fa-plus-square"></i>
+        </span>
+      </div>
+      <div class="chat__icon-right chat_icon">
+        <span class="chat_icon"><i class="far fa-smile"></i></span>
 
-<body class="chat-body">
-  <div class="status-bar">
-    <div class="status-bar__column">
-      <span class="status-bar__clock">10:10</span>
+        <span class="chat_icon"><i class="fas fa-microphone"></i></span>
+      </div>
     </div>
-    <div class="status-bar__column">
-      <i class="far fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <i class="fas fa-signal"></i>
-      <span class="status-bar__battery-storage">52%</span>
-      <i class="fas fa-battery-half"></i>
-    </div>
-  </div>
-  <header class="header">
-    <div class="header__header-column">
-      <a href="index.html">
-        <i class="fas fa-arrow-left chat-arrow"></i>
-      </a>
-      <h1 class="header__title">Family</h1>
-    </div>
-    <div class="header__header-column">
-      <span class="header__icon">
-        <i class="fas fa-search"></i>
-      </span>
-      <span class="header__icon">
-        <i class="fas fa-bars"></i>
+    <div class="bigScreen">
+      <span class="bicScreen__text">
+        Pleas make your screen small!
       </span>
     </div>
-  </header>
-  <main class="chat-screen">
-    <ul class="chat__messages">
-      <span class="chat__timestamp">Sunday, January 19, 2020</span>
-      <li class="incoming-message message">
-        <img src="images/person006.jpg" class="m-avatar message__avatar" />
-        <div class="message__content">
-          <span class="message__author">Morgan H. Stark</span>
-          <div class="message__bubble">
-            I love you 3000 !!!<br>
-            I love you 3000 !!!<br>
-            I love you 3000 !!!<br>
-            I love you 3000 !!!
-          </div>
-        </div>
-        <span class="message__timestamp">PM 7:13</span>
-      </li>
-      <li class="sent-message message">
-        <span class="message__timestamp">PM 7:14</span>
-        <div class="message__content">
-          <div class="message__bubble">
-            I love you 3000<br>
-            I love you 3000<br>
-            I love you 3000
-          </div>
-        </div>
-      </li>
-      <span class="chat__timestamp">Wednesday, January 22, 2020</span>
-      <li class="incoming-message message">
-        <img src="images/person007.jpg" class="m-avatar message__avatar" />
-        <div class="message__content">
-          <span class="message__author">Virginia Pepper Potts</span>
-          <div class="message__bubble">
-            I love you 3000
-          </div>
-        </div>
-        <span class="message__timestamp">PM 7:20</span>
-      </li>
-      <li class="sent-message message">
-        <span class="message__timestamp">PM 7:23</span>
-        <div class="message__content">
-          <div class="message__bubble">
-            I love you 3000!!!!!!!!!!!!!
-          </div>
-        </div>
-      </li>
-      <li class="incoming-message message">
-        <img src="images/person006.jpg" class="m-avatar message__avatar" />
-        <div class="message__content">
-          <span class="message__author">Morgan H. Stark</span>
-          <div class="message__bubble">
-            I love you 3000
-          </div>
-        </div>
-        <span class="message__timestamp">PM 8:05</span>
-      </li>
-      <li class="sent-message message">
-        <span class="message__timestamp">PM 8:09</span>
-        <div class="message__content">
-          <div class="message__bubble">
-            I love you 3000
-          </div>
-        </div>
-      </li>
-    </ul>
-  </main>
-  <div class="chat__write">
-    <div class="chat__write-column">
-      <i class="far fa-plus-square chat__write-icon"></i>
-    </div>
-    <div class="chat__write-column">
-      <input type="text" placeholder="Send Message" class="chat__write-input" />
-    </div>
-    <div class="chat__write-column">
-      <span class="chat__write-icon">
-        <i class="far fa-smile"></i>
-      </span>
-      <span class="chat__write-icon">
-        <i class="fas fa-microphone"></i>
-      </span>
-    </div>
-  </div>
-  <div class="bigScreen">
-    <span class="bicScreen__text">
-      Pleas make your screen small!
-    </span>
-  </div>
-</body>
-
+  </body>
 </html>

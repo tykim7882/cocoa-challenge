@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Heebo:400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Heebo:400,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Mukta:300,400,700&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
-@import "more.css";
-@import "friend.css";
 @import "main.css";
+@import "more.css";
 @import "settings.css";
 @import "find.css";
+@import "friend.css";
 @import "chats.css";
 @import "chat.css";
 @import "mobile.css";
@@ -16,7 +17,7 @@ body {
   width: 100%;
   background-color: white;
   color: #020202;
-  font-family: "Heebo", sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 a {
