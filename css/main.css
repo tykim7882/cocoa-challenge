@@ -10,6 +10,7 @@ main {
 
 .chat,
 .chat-screen {
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
@@ -30,8 +31,4 @@ main {
 .more,
 .settings {
   animation: fadeIn 0.4s ease-in-out;
-}
-
-.chat-screen {
-  padding-bottom: 120px;
 }
